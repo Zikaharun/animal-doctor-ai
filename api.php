@@ -4,11 +4,10 @@ if (isset($_GET['role']) && isset($_GET['prompt']) && $_GET['role'] !== '' && $_
 
 
 // Your Groq API key
-$apiKey = "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";
+$apiKey = "YOUR_SECRET_API";
 
 // API URL
-$url = "https://api.groq.com/openai/v1/chat/completions";
-
+$url = "API_URL"
 // JSON payload
 $data = [
     "messages" => [
